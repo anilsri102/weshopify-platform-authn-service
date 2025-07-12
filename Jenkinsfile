@@ -51,6 +51,10 @@ pipeline{
                 }
             }
         }
-      
+        stage("trigger authn-deploy job"){
+          steps{
+              build job: 'weshopify-platform-authn-service-continous-deployment'
+          }
+      }
     }
 }
