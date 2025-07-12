@@ -1,5 +1,6 @@
-# FROM openjdk:17-alpine
-FROM openjdk:17-jdk-slim as build
+#FROM openjdk:17-jdk-slim as build 
+
+FROM openjdk:17-alpine
 
 ARG WORK_DIR=/opt/authn-service
 ARG ARTIFACT_NAME=weshopify-authn-service.jar
