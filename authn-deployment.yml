@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: weshopify-authn
-        image: narsimybooks/weshopify-authn-service-img
+        image: agulimi/weshopify-authn-service-img
         ports:
         - containerPort: 5022
         env:
